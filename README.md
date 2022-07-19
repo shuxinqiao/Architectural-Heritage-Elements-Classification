@@ -28,7 +28,7 @@ Image Classification Model using Pytorch pretrained Residual ConvNet 18 Layers M
 
 Loss by CrossEntropyLoss function.  Data normalized in 3 color channels.
 
-Model | Train Loss | Traing Acc | Val Loss | Val Acc | Test Acc | Train Time | 
+Model | Train Loss | Train Acc | Val Loss | Val Acc | Test Acc | Train Time | 
 --- | --- | --- | --- |--- |--- |---
 ResNet18 + FC | 0.0391 | 0.9911 | 0.3086 | 0.9207 | 0.9017 | 128m 11s |
 
