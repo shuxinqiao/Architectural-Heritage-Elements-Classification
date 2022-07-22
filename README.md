@@ -30,7 +30,13 @@ Loss by CrossEntropyLoss function.  Data normalized in 3 color channels.
 
 Model | Train Loss | Train Acc | Val Loss | Val Acc | Test Acc | Train Time | 
 --- | --- | --- | --- |--- |--- |---
-ResNet18 + FC | 0.0391 | 0.9911 | 0.3086 | 0.9207 | 0.9017 | 128m 11s |
+ResNet18 (fine tuning) | 0.0391 | 0.9911 | 0.3086 | 0.9207 | 0.9017 | 128m 11s |
+ResNet50 (fine tuning) | 0.0486 | 0.9872 | 0.0214 | 0.9951 | 0.9323 | 86m 16s |
+ResNet50 (fixed feature) | 0.6233 | 0.7885 | 0.4795 | 0.8387 | 0.7756 | 56m 20s |
+
+
+Fine Tuning and Fixed Feature Extractor ResNet 50 used `mosaicml/composer` for efficient training.
+
 
 ### Training images
 ![Training images](/ScreenShots/InputSample.PNG)
