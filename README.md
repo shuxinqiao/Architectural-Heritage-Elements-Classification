@@ -63,3 +63,4 @@ Few online image examples are in SingleTest.
 - torchvision: `0.13.0`
 - numpy: `1.23.1`
 - matplotlib: `3.5.2`
+- mosaicml: `0.8.0`
