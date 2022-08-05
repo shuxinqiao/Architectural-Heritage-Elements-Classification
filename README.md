@@ -1,6 +1,6 @@
 # Architectural Heritage Elements Classification
 
-Image Classification Model using Pytorch pretrained Residual ConvNet 18 Layers Model for Transfer Learning.
+Image Classification Model using Pytorch pretrained Residual ConvNet 18 and 50 Layers Model for Transfer Learning.
 
 ## Data Summary
 
